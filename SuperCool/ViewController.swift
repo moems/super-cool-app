@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var cooLogo: UIImageView!
     @IBOutlet weak var coolBg: UIImageView!
     @IBOutlet weak var uncoolButton: UIButton!
+    @IBOutlet weak var coolness: UISlider!
     
     
     override func viewDidLoad() {
