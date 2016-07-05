@@ -34,12 +34,17 @@
                                     <action selector="makeMeNotSoUncool:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JLx-OH-0ra"/>
                                 </connections>
                             </button>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="hCN-8F-HiT">
+                                <frame key="frameInset" minX="201" minY="406" width="146" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </slider>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
                         <outlet property="cooLogo" destination="5kq-vZ-t2W" id="XGV-jk-CZQ"/>
                         <outlet property="coolBg" destination="qsU-2C-zsQ" id="pj0-vL-ViW"/>
+                        <outlet property="coolness" destination="hCN-8F-HiT" id="iZ6-i2-NNo"/>
                         <outlet property="uncoolButton" destination="R9C-E7-rtO" id="hVe-Wz-Y5r"/>
                     </connections>
                 </viewController>
